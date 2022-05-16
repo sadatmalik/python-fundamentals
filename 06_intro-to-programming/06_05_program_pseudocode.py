@@ -6,3 +6,10 @@
 # You can also add real Python code after learning the necessary concepts.
 # For now, just practice breaking larger tasks into smaller steps
 # and writing out your thoughts in pseudocode.
+
+# Steps for creating a sequence of fusion transactions each month from a transactions spreadsheet
+
+# Read the spread sheet line by line
+# Convert each line into a transaction object
+# Save the transaction to a database - check for and discard duplicates
+# Send the transaction objects as events to fusion-web
