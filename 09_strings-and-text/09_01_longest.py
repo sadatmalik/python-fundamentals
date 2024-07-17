@@ -15,3 +15,7 @@ for string in strings:
         longest = string
 
 print("Longest string is %s", longest)
+
+#neat way to reverse a string!
+print("reverse this"[::-1])
+

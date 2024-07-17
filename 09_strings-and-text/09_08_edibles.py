@@ -6,3 +6,8 @@
 # What dish can you make from these ingredients? :)
 
 s = "They grappled with their leggins before going to see the buttercups flourish."
+
+apple = s[7:12]
+print(apple)
+
+# also egg butter flour

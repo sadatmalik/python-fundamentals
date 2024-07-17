@@ -3,3 +3,7 @@
 # the necessary letters from the given string.
 
 word = "tweezers "
+
+we = word[1] + word[2]
+
+print(we)
