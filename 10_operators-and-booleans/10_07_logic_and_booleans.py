@@ -10,3 +10,8 @@
 
 wrong = False
 right = True
+
+two_wrongs = wrong and wrong
+
+print(wrong and wrong == right)
+
