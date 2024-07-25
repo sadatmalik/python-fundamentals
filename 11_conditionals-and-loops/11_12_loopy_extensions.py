@@ -8,3 +8,17 @@
 # for example flags and conditional statements.
 
 filename = "operators.pdf"
+pdf = ".pdf"
+
+match = False
+i = 0
+for char in filename:
+    if i < 4 and char == pdf[i]:
+        match = True
+        i += 1
+    else:
+        match = False
+        i = 0
+
+print(match)
+

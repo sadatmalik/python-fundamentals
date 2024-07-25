@@ -5,9 +5,11 @@
 # declare your hunger levels with a string.
 
 
-hunger = 2
+hunger = "big"
 
-if hunger == "big":
+if type(hunger) != str:
+    print("Enter a string value for hunger!")
+elif hunger == "big":
     print("Eat the pizza")
 elif hunger == "small":
     print("Eat the apple")

@@ -22,3 +22,10 @@
 # * * *
 #
 # HINT: Think of nested for loops!
+
+r = 20
+for y in range(1, r + 1):
+    for x in range (1, y + 1):
+        print("*", end=" ")
+    print()
+
