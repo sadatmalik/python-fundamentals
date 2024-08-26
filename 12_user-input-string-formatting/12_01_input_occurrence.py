@@ -4,3 +4,12 @@
 # String input: hello world
 # Letter input: o
 # Result: 4
+
+string = "hello world"
+
+char = input("Which chaacter would you like to match?")
+
+index = string.index(char)
+
+print(index)
+
