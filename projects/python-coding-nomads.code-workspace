@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../python-201-main"
+		},
+		{
+			"path": "../../python-301-main"
 		}
 	],
 	"settings": {}
